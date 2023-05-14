@@ -9,7 +9,7 @@ import History from './History';
 function App() {
   let [a,seta]=useState([20000,20000,20000,20000,20000,20000,20000,20000,20000,20000])
   let wow=[20000,20000,20000,20000,20000,20000,20000,20000,20000,20000];
-  let [history,sethistory]=useState(null);
+  let [history,sethistory]=useState([]);
   let money_subtractor=(i,j,amount ) =>{
     for(let x=0;x<10;x++){
       if(x===i-1){wow[x]=a[x]-amount}

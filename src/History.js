@@ -3,7 +3,7 @@ import React from "react";
 export default function History(props) {
     let {history}=props;
     console.log(history)
-  return ( history?
+  return ( history.length?
     <div>
       {history.map((element) => {
         return(
