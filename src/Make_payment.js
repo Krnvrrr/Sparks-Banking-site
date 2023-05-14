@@ -27,56 +27,47 @@ export default function Make_payment(props) {
   };
   return (
     <div
-      className="container"
-      style={{
-        backgroundColor: "white",
-        borderRadius: "5px",
-        margin: "50px",
-        padding: "40px",
-      }}
+      className="container mt-5"
     >
-      <div className="mb-3 d-flex justify-content-start">
+      <div className="mb-3 d-flex flex-wrap justify-content-center">
         <div>
-          <label htmlFor="exampleFormControlInput1" className="form-label">
-            pay As:
+          <label htmlFor="exampleFormControlInput1" className="form-label" style={{color:'white'}}>
+            Pay As :
           </label>
           <input
-            style={{ margin: "10px" }}
             type="email"
             value={text1}
             onChange={handleonchange1}
             key="name"
-            className="form-control"
+            className="form-control mx-3"
             id="exampleFormControlInput1"
-            placeholder="person"
+            placeholder="person x"
           />
         </div>
         <div>
-          <label htmlFor="exampleFormControlInput1" className="form-label">
-            Whom To pay:
+          <label htmlFor="exampleFormControlInput1" className="form-label" style={{color:'white'}}>
+          Recipient's Name:
           </label>
           <input
-            style={{ margin: "10px" }}
             type="email"
             value={text2}
             onChange={handleonchange2}
             key="amount"
-            className="form-control"
+            className="form-control mx-3"
             id="exampleFormControlInput2"
-            placeholder="person"
+            placeholder="person y"
           />
         </div>
         <div>
-          <label htmlFor="exampleFormControlInput1" className="form-label">
+          <label htmlFor="exampleFormControlInput1" className="form-label" style={{color:'white'}}>
             Enter amount
           </label>
           <input
-            style={{ margin: "10px" }}
             type="email"
             value={text3}
             onChange={handleonchange3}
             key="amount"
-            className="form-control"
+            className="form-control mx-3"
             id="exampleFormControlInput2"
             placeholder="...$"
           />

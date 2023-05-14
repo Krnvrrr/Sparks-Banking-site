@@ -14,7 +14,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="card" style={{width: "5rem;"}}>
+        <div className="card">
   <img src="https://img.freepik.com/free-vector/credit-card-landing-page-payment-concept_23-2148298750.jpg?w=740&t=st=1679383335~exp=1679383935~hmac=15144164ce41053d0539ba00932d607b4ab16fd936d3674b45fc1ea84472d154" width="400px" height="550px"  className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Go to transactions</h5>
